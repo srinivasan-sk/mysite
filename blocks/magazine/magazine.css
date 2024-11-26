@@ -1,0 +1,50 @@
+.magazine>div {
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebeb;
+
+}
+
+.magazine img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.magazine>div>div {
+    order: 1;
+
+}
+
+.magazine>div>.magazine-img-col {
+    order: 0;
+}
+
+.magazine>div>.magazine-img-col img {
+    display: block;
+}
+
+
+@media (width >=900px) {
+    .magazine>div {
+        align-items: center;
+        flex-direction: unset;
+        gap: 24px;
+    }
+
+    .magazine>div>div {
+        flex: 1;
+        order: unset;
+    }
+}
+
+.magazine-2-cols {
+    height: 150%;
+
+}
+
+.btn_readmore > p  {
+    color: blueviolet;
+    display: flex;
+    flex-direction: row;
+}

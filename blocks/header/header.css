@@ -4,7 +4,7 @@ header .nav-wrapper {
   color: #202020;
   /* background-color: var(--background-color); */
   width: 100%;
-  z-index: 2;
+  z-index: 3;
   position: fixed;
 }
 
@@ -154,9 +154,15 @@ header nav .nav-brand img {
 /* sections */
 header nav .nav-sections {
   grid-area: sections;
-  flex: 1 1 auto;
+  /* flex: 1 1 auto; */
   display: none;
   visibility: hidden;
+  cursor: pointer;
+}
+header nav .nav-sections li:hover {
+  background-color: #ffea00;
+  padding: 10px;
+
 }
 
 header nav[aria-expanded='true'] .nav-sections {
@@ -172,11 +178,11 @@ header nav .nav-sections ul {
 }
 
 header nav .nav-sections ul > li {
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 
 header nav .nav-sections ul > li > ul {
-  margin-top: 0;
+  /* margin-top: 0; */
 }
 
 header nav .nav-sections ul > li > ul > li {
@@ -267,4 +273,33 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+  /* border: 1px solid #9a9595;
+  padding: 5px;
+  cursor: text;
+  width: 15%;
+  background-color: #ebebeb8a; */
 }
+
+header nav .nav-tools {
+  box-sizing: border-box;
+  display: block;
+  width: 20%;
+  margin: 0;
+  padding: 0.5em;
+  border-radius: 4px;
+  border: 1px solid #ebebeb8a;
+  color: var(--text-color);
+  font-size: var(--body-font-size-s);
+  transition: border-color 0.2s;
+  background-color: #ebebeb8a;
+}
+
+header nav .nav-tools {
+  cursor: text;
+}
+
+header nav .nav-tools:focus-within {
+  border-color: black;
+  border: 1px solid #000;
+}
+

@@ -146,6 +146,8 @@ export default async function decorate(block) {
     });
   }
 
+  
+
   // hamburger for mobile
   const hamburger = document.createElement('div');
   hamburger.classList.add('nav-hamburger');
@@ -164,3 +166,16 @@ export default async function decorate(block) {
   navWrapper.append(nav);
   block.append(navWrapper);
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelector('.nav-tools').addEventListener('click', function() {
+    const nav = this.querySelector('nav');
+    nav.focus();
+    this.classList.add('focus-within');
+  });
+
+  document.querySelector('.nav-tools nav').addEventListener('blur', function() {
+    this.parentElement.classList.remove('focus-within');
+  });
+});
+
