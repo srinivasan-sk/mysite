@@ -1,0 +1,110 @@
+.section.article-cards-container > .article-cards-wrapper > .article-cards.block {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 14px;
+    max-width: 1200px;
+    gap: 14px;
+  }
+  
+  /* Media Queries */
+  @media screen and (min-width: 768px) {
+    .section.article-cards-container > .article-cards-wrapper > .article-cards.block {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .section.article-cards-container > .article-cards-wrapper > .article-cards.block {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+  }
+  .section.article-cards-container > .default-content-wrapper > .recent-article-title-wrapper {
+    display: inline-block; 
+  }
+  .section.article-cards-container >.default-content-wrapper >h2{
+    color :rgb(32, 32, 32);
+    display: block;
+    font-family :Asar, Georgia, "Times New Roman", Times, serif;
+    font-size: 36px;
+    height :64px;
+    line-height :27px;
+    text-align :left;
+    font-weight :400;
+    line-height :54px;
+    position: relative;
+   
+   
+    }
+  
+    .section.article-cards-container >.default-content-wrapper >h3{
+      color :rgb(32, 32, 32);
+      display: block;
+      font-family: Asar, Georgia, "Times New Roman", Times, serif;
+      font-size :24px;
+      font-weight :400;
+      height :36px;
+      line-height: 36px;
+    }
+  
+  
+  .section.article-cards-container > .article-cards-wrapper > .article-cards.block > div > div:first-child > p {
+    margin-bottom: 0;
+    
+  }
+  
+  
+  .section.article-cards-container > .article-cards-wrapper > .article-cards.block > div > div:first-child > p > a > picture > img {
+    all: unset;
+    height: 180px !important;
+    width: auto;
+    object-fit: cover;
+  }
+  
+  .section.article-cards-container > .article-cards-wrapper > .article-cards.block > div > div:last-child > .button-container {
+    margin-top: 0;
+  }
+  
+  .section.article-cards-container > .article-cards-wrapper > .article-cards.block > div > div:last-child > .button-container > a {
+    all: unset;
+    color: #202020;
+    font-family: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-wrap: wrap;
+    cursor: pointer;
+    width: 23ch;
+    display: inline-block;
+  }
+  
+  
+  .section.article-cards-container > .article-cards-wrapper > .article-cards.block > div > div:last-child > p:last-child {
+    color: dimgray;
+    display: block;
+    font-size: 14px;
+    margin-top: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 260px;
+    line-height: 1.5;
+  }
+  
+  
+  .border-line {
+    display: block;
+    margin: 0.5em auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  

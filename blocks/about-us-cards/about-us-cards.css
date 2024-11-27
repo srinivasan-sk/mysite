@@ -1,0 +1,116 @@
+.section.about-us-cards-container .default-content-wrapper {
+    padding: 0 14px;
+}
+
+.section.about-us-cards-container .default-content-wrapper h1 {
+    font-weight: normal;
+    margin: 27px 0 13.5px;
+    font-size: 40px;
+    color: rgb(32, 32, 32);
+display: block;
+font-family :Asar, Georgia, "Times New Roman", Times, serif;
+font-size :40px;
+font-weight :400;
+height: 60px;
+line-height :60px;
+margin-block-end :13.5px;
+margin-block-start: 27px;
+margin-bottom: 13.5px;
+}
+
+.section.about-us-cards-container .default-content-wrapper h2 {
+    margin: 27px 0 13.5px;
+    color :rgb(32, 32, 32);
+    display: block;
+    font-family :Asar, Georgia, "Times New Roman", Times, serif;
+    font-size: 36px;
+    height :64px;
+    line-height :27px;
+    text-align :left;
+    font-weight :400;
+    line-height :54px;
+    position: relative;
+                       
+}
+
+.section.about-us-cards-container .default-content-wrapper p {
+    font-style: italic;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 2.5;
+}
+
+.section.about-us-cards-container .about-us-cards-wrapper .about-us-cards.block > div {
+    padding: 9px 14px 18px;
+}
+
+@media (min-width: 769px) {
+    .section.about-us-cards-container .about-us-cards-wrapper .about-us-cards.block > div {
+        width: 45%;
+        display: inline-block;
+    }
+}
+
+@media (min-width: 1025px) {
+    .section.about-us-cards-container .about-us-cards-wrapper .about-us-cards.block > div {
+        width: 22%;
+    }
+}
+
+.section.about-us-cards-container .about-us-cards-wrapper .about-us-cards.block > div > div:first-child > picture {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.section.about-us-cards-container .about-us-cards-wrapper .about-us-cards.block > div > div:first-child > picture > img {
+    margin: 7px 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%; 
+    width: 164px; 
+    height: 164px;
+    overflow: hidden;
+}
+
+.section.about-us-cards-container .about-us-cards-wrapper .about-us-cards.block > div > div:last-child {
+    text-align: center;
+}
+
+.section.about-us-cards-container .about-us-cards-wrapper .about-us-cards.block > div > div:last-child > p {
+    text-align: center;
+}
+
+.section.about-us-cards-container .about-us-cards-wrapper .about-us-cards.block > div > div:last-child > p:first-child {
+    font-size: 24px;
+    font-family: var(--fontFamilySerif, "Asar", Georgia, "Times New Roman", Times, serif);
+    margin: 0 0 6px;
+}
+
+.section.about-us-cards-container .about-us-cards-wrapper .about-us-cards.block > div > div:last-child > p:nth-child(2) {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 3.5px;
+}
+
+.section.about-us-cards-container .about-us-cards-wrapper .about-us-cards.block > div > div:last-child .button-container {
+    display: inline-block;
+    height: 3pc;
+    width: 3pc;
+    background-color: black;
+    margin-right: -10px;
+}
+
+.section.about-us-cards-container .about-us-cards-wrapper .about-us-cards.block > div > div:last-child .button-container > a {
+    all: unset;
+    color: red;
+}
+
+.section.about-us-cards-container .about-us-cards-wrapper .about-us-cards.block > div > div:last-child .button-container .icon img {
+    cursor: pointer;
+    padding-top: 10px;
+}

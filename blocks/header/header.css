@@ -516,6 +516,9 @@ header nav .nav-tools {
 
   .search-container {
     margin-top: 2px;
+    overflow: hidden;
+    white-space: normal;
+    word-wrap: break-word;
   }
 
 
